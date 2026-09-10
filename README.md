@@ -1,5 +1,6 @@
 # General Behavioral Rules for Claude
-PROEJCT_ROOT = 현재 경로의 상위 디렉토리
+PROEJCT_ROOT = `CLAUDE.md` 파일이 위치한 디렉토리(일반적으로 `.claude/`)의 상위 디렉토리로 정의한다.
+단, 사용자 요청 내에 프로젝트 경로가 명시적으로 정의되었다면 이를 우선시 한다.
 
 
 ## 1. think & plan before action
